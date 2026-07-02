@@ -1,39 +1,28 @@
 # Bank Loan Analysis Dashboard
 
-An interactive Excel dashboard built to analyze bank loan performance and lending trends. This project converts raw loan data into an easy-to-understand dashboard using Pivot Tables, Pivot Charts, slicers, and KPI cards, making it easier to monitor lending activities and explore business insights.
+An interactive dashboard built in **Microsoft Excel** to analyze bank loan performance and lending trends. The dashboard provides a clear view of loan applications, funded amounts, repayments, borrower profiles, and loan quality through interactive charts, KPI cards, and slicers.
+
+![Dashboard Preview](Images/dashboard-overview.png)
 
 ---
 
-## Dashboard Preview
+## Project Summary
 
-### Overview Dashboard
-
-![Overview Dashboard](Images/dashboard-overview.png)
+- **Tool:** Microsoft Excel
+- **Dataset:** 38,576 Loan Records
+- **Dashboard Pages:** Summary & Overview
+- **Features:** Interactive Slicers, KPI Cards, Pivot Charts, Pivot Tables
+- **Purpose:** Analyze lending performance and identify business insights from loan data.
 
 ---
 
 ## Project Highlights
 
-- Built an interactive dashboard entirely in Microsoft Excel.
-- Designed KPI cards to monitor loan applications, funded amount, repayments, interest rate, and DTI.
-- Created dynamic visualizations using Pivot Tables and Pivot Charts.
-- Added slicers for interactive filtering across multiple dashboard pages.
-- Analyzed borrower demographics, loan purpose, loan term, employment length, and home ownership.
-
----
-
-## About the Project
-
-The goal of this project was to create a dashboard that helps track the overall performance of a bank's loan portfolio. Instead of going through thousands of records manually, users can quickly explore loan performance using interactive filters and visual reports.
-
-The dashboard answers questions such as:
-
-- How many loan applications were received?
-- How much money has been funded and repaid?
-- What percentage of loans are Good Loans and Bad Loans?
-- Which states have the highest loan applications?
-- Which loan purposes are most common?
-- How does employment length or home ownership relate to loan applications?
+- Built a fully interactive Excel dashboard from raw loan data.
+- Created KPI cards to track loan applications, funded amount, repayments, interest rate, and debt-to-income ratio (DTI).
+- Compared Good Loans and Bad Loans based on loan status.
+- Designed interactive charts using Pivot Tables and Pivot Charts.
+- Added slicers to make dashboard exploration quick and user-friendly.
 
 ---
 
@@ -41,7 +30,7 @@ The dashboard answers questions such as:
 
 ### Summary Dashboard
 
-The Summary page provides a quick snapshot of the bank's lending performance through KPI cards and loan quality analysis.
+The Summary dashboard provides a high-level overview of the bank's lending performance.
 
 It includes:
 
@@ -59,30 +48,30 @@ It includes:
 
 ### Overview Dashboard
 
-The Overview page provides a visual analysis of the dataset through interactive charts.
+The Overview dashboard focuses on trends and borrower analysis using interactive visualizations.
 
 Charts included:
 
 - Monthly Loan Application Trend
-- State-wise Loan Distribution
-- Loan Applications by Loan Term
-- Loan Applications by Employment Length
-- Loan Applications by Purpose
+- State-wise Loan Analysis
+- Loan Term Distribution
+- Employment Length Analysis
+- Loan Purpose Breakdown
 - Home Ownership Analysis
 
 ---
 
-## Tools & Skills
+## Skills Demonstrated
 
-- Microsoft Excel
+- Dashboard Design
+- Data Analysis
+- KPI Reporting
+- Data Visualization
+- Business Analytics
 - Pivot Tables
 - Pivot Charts
-- Slicers
-- Conditional Formatting
-- Excel Formulas
-- Data Visualization
-- Dashboard Design
-- Business Analytics
+- Interactive Slicers
+- Microsoft Excel
 
 ---
 
@@ -93,29 +82,30 @@ The dashboard is built using a bank loan dataset containing information such as:
 - Loan Status
 - Loan Amount
 - Funded Amount
-- Amount Received
+- Total Amount Received
 - Interest Rate
 - Debt-to-Income Ratio (DTI)
-- Issue Date
+- Loan Term
 - Loan Purpose
 - Home Ownership
 - Employment Length
 - State
+- Issue Date
 
 ---
 
 ## Folder Structure
 
 ```
-Bank-Loan-Analysis-Dashboard
+Bank-Loan-Analysis-Dashboard/
 │
-├── Dashboard
+├── Dashboard/
 │   └── Bank Loan Dashboard.xlsx
 │
-├── Dataset
+├── Dataset/
 │   └── financial_loan_data.csv
 │
-├── Images
+├── Images/
 │   ├── dashboard-overview.png
 │   └── dashboard-summary.png
 │
@@ -126,13 +116,7 @@ Bank-Loan-Analysis-Dashboard
 
 ## What I Learned
 
-Working on this project helped me improve my understanding of:
-
-- Designing interactive Excel dashboards
-- Working with Pivot Tables and Pivot Charts
-- Building KPI-based reports
-- Presenting business data through effective visualizations
-- Creating dashboards that are easy to explore using slicers
+This project helped me strengthen my Excel dashboarding skills by working with real-world financial data. I gained hands-on experience in creating KPI dashboards, building interactive reports with Pivot Tables and slicers, and presenting business insights through clear visualizations.
 
 ---
 
@@ -141,12 +125,10 @@ Working on this project helped me improve my understanding of:
 1. Download the Excel workbook.
 2. Open **Bank Loan Dashboard.xlsx** in Microsoft Excel.
 3. Enable editing if prompted.
-4. Use the slicers to interact with the dashboard and explore different loan segments.
+4. Use the slicers to filter the data and explore different loan segments.
 
 ---
 
 ## Author
 
 **Hrithik Doiphode**
-
-If you have any suggestions or feedback, feel free to connect or explore my other projects.
